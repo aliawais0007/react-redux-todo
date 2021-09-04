@@ -1,0 +1,31 @@
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border-radius: 12px;
+  width: 80%;
+  height: 52px;
+  padding: 0;
+  background: white;
+}
+input {
+  border: 0px solid transparent;
+  flex: 1;
+  height: 50px;
+  border-radius: 12px;
+  padding-left: 15px;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid black;
+  border-radius: 12px;
+  width: 120px;
+  height: 100%;
+}
